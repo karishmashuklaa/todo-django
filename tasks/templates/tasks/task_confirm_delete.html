@@ -1,0 +1,21 @@
+{% extends 'tasks/main.html' %}
+{% block title %} Delete Task {% endblock %}
+{% load static %}
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'tasks' %}">
+        <i class="fa fa-arrow-left"></i></a>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <p>Are your sure you want to delete the task "{{task}}"?</p>
+        <input class="button" type="submit" value="Delete" />
+    </form>
+</div>
+
+
+
+{% endblock content %}
