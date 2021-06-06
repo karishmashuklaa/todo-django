@@ -2,11 +2,9 @@
 
 A todo web application with user authentication using Django.
 
-## Features
-* A user can
-** create, update, delete and search tasks. 
-** Mark tasks as complete
-* Attractive UI
+A user can
+* create, update, delete and search tasks. 
+* Mark tasks as complete
 
 ## Tech Stack
 
