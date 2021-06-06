@@ -3,7 +3,7 @@
 A todo web application with user authentication using Django.
 
 A user can
-* resgiter / login 
+* register / login 
 * create, update, delete and search tasks. 
 * Mark tasks as complete
 
