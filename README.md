@@ -3,6 +3,7 @@
 A todo web application with user authentication using Django.
 
 A user can
+* resgiter / login 
 * create, update, delete and search tasks. 
 * Mark tasks as complete
 
@@ -17,7 +18,7 @@ PostgreSQL
 
 ## Setup
 
-The first thing to do is to clone the repository:
+Clone the repository:
 
 ```
 git clone https://github.com/karishmas6/todo-django.git
@@ -33,7 +34,7 @@ virtualenv env
 env/Scripts/activate
 ```
 
-Run:
+Run the project:
 
 ```
 python manage.py runserver
